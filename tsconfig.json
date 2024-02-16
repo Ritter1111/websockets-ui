@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                  
+    "module": "CommonJS",
+    "moduleResolution": "Node",                           
+    "esModuleInterop": true,     
+    "resolveJsonModule": true, 
+    "allowJs": true,                       
+    "forceConsistentCasingInFileNames": true,          
+    "strict": true,                                     
+    "noImplicitAny": true,                           
+    "skipLibCheck": true                                
+  },
+  "exclude": ["front/**/*"]
+}
