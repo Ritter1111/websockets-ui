@@ -4,7 +4,7 @@
     "description": "Template for the WebSocket remote control task",
     "scripts": {
         "start": "ts-node ./index.ts",
-        "start:dev": "nodemon ./index.js",
+        "start:dev": "nodemon ./index.ts",
         "test": "echo \"Error: no test specified\" && exit 1",
         "tsc": "tsc"
     },
@@ -13,6 +13,7 @@
     "license": "ISC",
     "devDependencies": {
         "@types/node": "^20.11.19",
+        "@types/ws": "^8.5.10",
         "nodemon": "^2.0.16"
     },
     "dependencies": {
